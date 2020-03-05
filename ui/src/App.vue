@@ -92,6 +92,7 @@
         '--columns': this.columns,
         '--rows': Math.ceil(tilesCount / this.columns),
         '--zoom': this.zoom,
+        'overflow-y': 'auto',
       }
     }
 
