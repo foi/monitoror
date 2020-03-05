@@ -270,7 +270,7 @@
   }
 
   .c-monitoror-tile--label {
-    font-size: 32px;
+    font-size: 16px;
     line-height: 1.2;
     font-weight: bold;
     margin-bottom: 3px;
@@ -307,7 +307,7 @@
     left: 50%;
     padding-top: 25px;
     text-align: center;
-    font-size: 50px;
+    font-size: 24px;
     font-weight: bold;
     transform: translate(-50%, -50%);
   }

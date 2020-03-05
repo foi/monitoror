@@ -104,7 +104,7 @@
     }
 
     get columns(): number {
-      return this.$store.state.columns
+      return 6
     }
 
     get zoom(): number {
@@ -234,7 +234,7 @@
     display: grid;
     grid-template-columns: repeat(var(--columns), 1fr);
     grid-gap: 6px;
-    grid-auto-rows: calc((100vh - 6px) / var(--rows) - 6px);
+    //grid-auto-rows: calc((100vh - 6px) / var(--rows) - 6px);
     margin: 6px;
   }
 
